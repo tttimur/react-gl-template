@@ -5,4 +5,4 @@ Start dev server
 `yarn dev`
 
 Notes
-- Ignore shaders directory - was able to load in the glsl file through babel loader but wasn't working with react fast refresh. Created a suboptimal dev/iterating experiece
+- Ignore shaders directory - was able to load in the glsl file through babel loader but wasn't working with react fast refresh. The result was a suboptimal dev/iterating experiece, but having the shader inline worked really well. Totally open to expanding on this further
